@@ -1,8 +1,8 @@
 class ChaimCli < Formula
   desc "Chaim command line interface"
   url "https://s3-eu-west-1.amazonaws.com/chaim-cli/chaim-latest.osx.tgz"
-  version "1.5-0"
-  sha256 "6ab55c64bf9b88f448291f88732291003aa2cdd467ebe502abf2d2c7da39bf79"
+  version "1.5-1"
+  sha256 "06d7ea5b9f803da44eebe66d89fe23582d4279fd97c943c9f2a60a7d4a64624b"
 
   def install
 	prefix.install Dir["./*"]
